@@ -5,7 +5,7 @@ import TaskList from '../others/TaskList'
 
 function EmpDashboard() {
   return (
-    <div className='p-10 bg-zinc-800 h-screen'>
+    <div className='p-10  h-screen'>
         <Header />
         <TaskListNum />
         <TaskList />
