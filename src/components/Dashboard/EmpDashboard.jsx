@@ -10,7 +10,7 @@ function EmpDashboard({ user }) {
     <div className='p-10  h-screen'>
         <Header username={data.name}/>
         <TaskListNum tasks={data.tasks}/>
-        <TaskList />
+        <TaskList data={data}/>
     </div>
   )
 }

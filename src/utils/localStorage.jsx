@@ -21,7 +21,7 @@ const employees = [
         date: "2025-06-25",
         category: "Meeting",
         active: false,
-        newTask: true,
+        newTask: false,
         completed: true,
         failed: false
       },
