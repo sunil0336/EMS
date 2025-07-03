@@ -8,9 +8,9 @@ const employees = [
       {
         title: "Prepare Sales Report",
         description: "Compile the monthly sales report for Q2.",
-        date: "2025-06-29",
+        date: "2025 june 29",
         category: "Reporting",
-        active: true,
+        active: false,
         newTask: true,
         completed: false,
         failed: false
@@ -18,7 +18,7 @@ const employees = [
       {
         title: "Client Meeting",
         description: "Meet with client ABC Corp for project review.",
-        date: "2025-06-25",
+        date: "2025-june-25",
         category: "Meeting",
         active: false,
         newTask: false,
@@ -28,12 +28,12 @@ const employees = [
       {
         title: "System Testing",
         description: "Run integration tests on the updated system.",
-        date: "2025-06-26",
+        date: "2025 june 26",
         category: "Testing",
-        active: true,
+        active: false,
         newTask: false,
         completed: false,
-        failed: false
+        failed: true
       }
     ]
   },
@@ -132,7 +132,7 @@ const employees = [
       {
         title: "Server Maintenance",
         description: "Routine check and maintenance of production servers.",
-        date: "2025-06-26",
+        date: "2025-june-26",
         category: "Maintenance",
         active: false,
         newTask: false,
@@ -142,9 +142,9 @@ const employees = [
       {
         title: "Write Documentation",
         description: "Document API changes for new release.",
-        date: "2025-06-30",
+        date: "2025-june-30",
         category: "Documentation",
-        active: true,
+        active: false,
         newTask: true,
         completed: false,
         failed: false
@@ -152,7 +152,7 @@ const employees = [
       {
         title: "Monitor Logs",
         description: "Check logs for potential error patterns.",
-        date: "2025-06-29",
+        date: "2025-june-29",
         category: "Monitoring",
         active: false,
         newTask: false,
@@ -162,17 +162,17 @@ const employees = [
       {
         title: "Create User Guides",
         description: "Write guides for onboarding new clients.",
-        date: "2025-07-02",
+        date: "2025-july-02",
         category: "Support",
         active: true,
-        newTask: true,
+        newTask: false,
         completed: false,
         failed: false
       },
       {
         title: "Security Audit",
         description: "Conduct internal audit of user access logs.",
-        date: "2025-06-27",
+        date: "2025-may-27",
         category: "Security",
         active: false,
         newTask: false,

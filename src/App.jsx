@@ -10,8 +10,8 @@ function App() {
   const authData = useContext(AuthContext);
   
   useEffect(() => {
-    setLocalStorage(); // to add data in localStorage 
     // localStorage.clear(); // clear localStorage
+    setLocalStorage(); // to add data in localStorage 
     if (authData) {
       const loggedInUser = localStorage.getItem("loggedInUser");
       if (loggedInUser) {
