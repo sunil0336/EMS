@@ -1,6 +1,7 @@
 const employees = [
   {
     id: 1,
+    name: "Sunil Rathod",
     email: "employee1@example.com",
     password: "1234",
     tasks: [
@@ -20,7 +21,7 @@ const employees = [
         date: "2025-06-25",
         category: "Meeting",
         active: false,
-        newTask: false,
+        newTask: true,
         completed: true,
         failed: false
       },
@@ -38,6 +39,7 @@ const employees = [
   },
   {
     id: 2,
+    name: "Priya Verma",
     email: "employee2@example.com",
     password: "1234",
     tasks: [
@@ -85,6 +87,7 @@ const employees = [
   },
   {
     id: 3,
+    name: "Rohan Mehta",
     email: "employee3@example.com",
     password: "1234",
     tasks: [
@@ -122,6 +125,7 @@ const employees = [
   },
   {
     id: 4,
+    name: "Sneha Patel",
     email: "employee4@example.com",
     password: "1234",
     tasks: [
@@ -179,6 +183,7 @@ const employees = [
   },
   {
     id: 5,
+    name: "Vikram Singh",
     email: "employee5@example.com",
     password: "1234",
     tasks: [

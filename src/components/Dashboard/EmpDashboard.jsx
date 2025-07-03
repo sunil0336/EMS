@@ -1,13 +1,15 @@
 import React from 'react'
 import Header from '../others/Header'
 import TaskListNum from '../others/TaskListNum'
-import TaskList from '../others/TaskList'
+import TaskList from '../TaskList/TaskList'
 
-function EmpDashboard() {
+function EmpDashboard({ user }) {
+  const { password, ...data } = user;
+  // console.log("User in EmpDashboard:", emp);
   return (
     <div className='p-10  h-screen'>
-        <Header />
-        <TaskListNum />
+        <Header username={data.name}/>
+        <TaskListNum tasks={data.tasks}/>
         <TaskList />
     </div>
   )
